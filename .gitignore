@@ -38,9 +38,18 @@ speed-measure-plugin*.json
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
+
 testem.log
 /typings
 
 # System Files
 .DS_Store
 Thumbs.db
+browserslist
+package-lock.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json
+.editorconfi
+

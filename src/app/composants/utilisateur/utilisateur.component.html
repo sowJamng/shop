@@ -1,0 +1,12 @@
+
+<p>bonjour {{nom}} tu as {{age}} ans</p>
+<button (click)="onClick()" >Plus infos</button>
+<h1>Editer</h1>
+<form action="">
+  <div><label for="Nom">Nom</label><input type="tex" [(ngModel)]="nom" name="nom"></div>
+  <div><label for="Age">Age</label><input type="number" [(ngModel)]="age" name="age"></div>
+  <div><label for="hobbyun">hobbyun</label><input type="text" [(ngModel)]="hobby.hobbyun" name="hobbyun"></div>
+  <div><label for="hobbydeux">hobbydeux</label><input type="text" [(ngModel)]="hobby.hobbydeux" name="hobbydeux"></div>
+  <div><label for="hobbytrois">hobbytrois</label><input type="text" [(ngModel)]="hobby.hobbytrois" name="hobbytrois"></div>
+  <div><label for="email">Email</label><input type="email" [(ngModel)]="email" name="email"></div>
+</form>
